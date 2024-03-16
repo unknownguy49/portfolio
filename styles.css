@@ -1,0 +1,259 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    display:block;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 350px; /* Adjust width as needed */
+    height: auto; /* Allow height to adjust proportionally */
+    max-height: 350px; /* Limit maximum height to avoid stretching */
+    padding-right: 20px;
+  }
+  
+
+.project-info {
+    text-align: left;
+}
+
+.cta-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.cta-btn:hover {
+    background-color: #ededed; /* Change the background color on hover */
+    color: #000000; /* Change the text color on hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer nav ul li {
+    margin-right: 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    background-color: #dddddd; /* Black background */
+    color: #1b1b1b; /* White text */
+}
+
+.content h1 {
+    font-family: "Nunito", "Roboto", "Helvetica", "Arial", sans-serif;
+    font-display: "sans-serif";
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.content .socials {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .socials svg {
+    width: 24px;
+    fill: #000000;
+}
+
+.has-tooltip {
+    position: relative;
+}
+
+a {
+    color: #037daf;
+    text-decoration: none;
+}
+
+.tooltip {
+    pointer-events: none;
+    user-select: none;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity .2s ease;
+    position: absolute;
+    z-index: 1;
+    inline-size: max-content;
+    max-inline-size: 25ch;
+    text-align: center;
+    font-size: .725rem;
+    font-weight: normal;
+    line-height: normal;
+    line-height: initial;
+    padding: .75ch 1.5ch;
+    inset-inline-start: 50%;
+    inset-block-start: calc(100% + 1ch);
+    margin: 0;
+    border-radius: 5px;
+    background: rgba(97, 97, 97, .9);
+    color: #fff;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,.2), 0px 2px 2px 0px rgba(0,0,0,.14), 0px 1px 5px 0px rgba(0,0,0,.12);
+}
+
+#home {
+    background-image: url('./static/bg.jpg');
+    background-size: cover;
+    font-family: 'Arial Rounded MT', Arial, sans-serif;
+    /* Add any other background properties here */
+}
+
+#about {
+    background-image: url('./static/abt.jpg');
+    background-size: cover;
+}
+
+#projects {
+    background-image: url('./static/pro.jpg');
+    background-size: cover;
+}
+
+#about-me {
+    font-weight: 300;
+    padding: 1rem 0;
+    font: size 10px;;
+    text-align: left;
+    font-family: 'Araboto', sans-serif;
+    font-weight: 300; /* Use the Light weight */
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    padding: 24px;
+    padding: clamp(8px, 10%, 24px);
+    margin: auto;
+}
+
+p {
+    margin: 0 0 1.45rem;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+    font-size: 48px;
+}
+
+#info {
+    font-size: 25px;
+}
+
+.projects-btn {
+    background-color: #3480be; /* Different color */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px; /* More rounded */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.projects-btn:hover {
+    background-color: #132f4a; /* Change color on hover */
+    color: #bdd8df;
+}
+
+.body-font {
+    background-color: #000000;
+}
+
+#projects .content{
+    color: #ffffff;
+}
+
+.pro_head{
+    font-size: xx-large;
+}
+
+.project-link {
+    color: #037daf;
+}
