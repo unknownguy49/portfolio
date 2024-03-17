@@ -278,11 +278,12 @@ p {
     nav ul {
         margin-left: 15px;
         font-size: 10px;
+        margin-right: 15px;
     }
 
     nav ul li {
         font-size:small;
-        margin-right: 25px; /* Decrease spacing between nav items */
+        margin-right: 20px; /* Decrease spacing between nav items */
     }
 
     section {
