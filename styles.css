@@ -282,7 +282,7 @@ p {
 
     nav ul li {
         font-size: large;
-        margin-right: 20px; /* Decrease spacing between nav items */
+        margin-right: 10px; /* Decrease spacing between nav items */
     }
 
     section {
@@ -365,4 +365,13 @@ p {
     .project-link {
         color: #03a9f4; /* Blue project link color */
     }
+
+    .content h1 {
+        font-weight: 600;
+    }
+
+    .content h2 {
+        color: #dddddd;
+    }
+
 }
