@@ -374,8 +374,8 @@ p {
         color: #dddddd;
     }
 
-    .content .has-tooltip a svg{
-        color: #dddddd;
+    .content .socials svg {
+        fill: #dddddd;
     }
 
 }
