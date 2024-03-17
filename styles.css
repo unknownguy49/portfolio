@@ -277,12 +277,12 @@ p {
 
     nav ul {
         margin-left: 30px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     nav ul li {
         font-size: large;
-        margin-right: 34px; /* Decrease spacing between nav items */
+        margin-right: 20px; /* Decrease spacing between nav items */
     }
 
     section {
