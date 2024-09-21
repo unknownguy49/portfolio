@@ -181,7 +181,7 @@ a {
 }
 
 #home {
-    background-image: url('./static/bg.jpg');
+    background-image: url('./static/bg.webp');
     background-size: cover;
     font-family: 'Arial Rounded MT', Arial, sans-serif;
     /* Add any other background properties here */
@@ -192,7 +192,7 @@ a {
 }
 
 #projects {
-    background-image: url('./static/pro.jpg');
+    background-image: url('./static/pro.webp');
     background-size: cover;
 }
 
